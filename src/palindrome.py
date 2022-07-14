@@ -30,7 +30,8 @@ def palindrome2(word):
             return False
     return True
 
-print(palindrome2("12344321"))
+if __name__ == "__main__":
+    print(palindrome2("12344321"))
 
 def py_palindrome(word):
     """
@@ -38,4 +39,5 @@ def py_palindrome(word):
     """
     return word == word[::-1]
 
-print(py_palindrome("jhgjgjhf"))
+if __name__ == "__main__":
+    print(py_palindrome("jhgjgjhf"))
