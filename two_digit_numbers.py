@@ -1,23 +1,18 @@
+"""
+filter out 2 digit numbers from a list of type str of any length
+"""
 list_ = []
 list_ = ["13", "4", "-4", "563", "27", "-57", "8"]
 newlist = []
 print(list_)
 
 for value in list_:
-    if("-" in value):
-        if(not len(value) == 3):
+    if "-" in value:
+        if not len(value) == 3:
             newlist.append(value)
     else:
-        if(not len(value) == 2):
+        if not len(value) == 2:
             newlist.append(value)
-
-
-
-
-
-
-
-
 
 
 # iminus = 0

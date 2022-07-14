@@ -1,0 +1,4 @@
+pylint
+numpy
+pytest
+pygame
