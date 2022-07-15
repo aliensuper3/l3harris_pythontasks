@@ -16,12 +16,12 @@ def obfuscateIP(ip_address):
     for letter in strToIP:
         ipAddressToReturn += str(ord(letter)) + "."
     
-    ipAddressToReturn = ipAddressToReturn[:len(ipAddressToReturn) -1]
+    ipAddressToReturn = ipAddressToReturn[:len(ipAddressToReturn)-1]
     return ipAddressToReturn
 
 
-#print(encryptIP("192.168.1.33"))
+print(encryptIP("192.168.1.33"))
 
-print(obfuscateIP("2.220.44.33"))
+print(obfuscateIP("192.168.1.33"))
 
-#print(decryptIP(encryptIP("192.168.1.33")))
+print(decryptIP(encryptIP("192.168.1.33")))
